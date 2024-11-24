@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="ngrywhite">#B1A8A8</color>
+    <color name="grywhitef">#230303</color>
+    <color name="grywhite">#EBE5E5</color>
+    <color name="grywhite1">#857C7C</color>
+    <color name="cardbg">#343037</color>
+    <color name="bgcolor">#2f2a29</color>
+    <color name="orderbtn">#F2B850</color>
+    <color name="blus">#1E074E</color>
+    <color name="orange">#DC7455</color>
+    <color name="red">#E94444</color>
+    <color name="blue">#5768BA</color>
+    <color name="bggoo">#0A73D1</color>
+    <color name="pink">#BB48EF</color>
+    <color name="green">#4EEB54</color>
+
+</resources>

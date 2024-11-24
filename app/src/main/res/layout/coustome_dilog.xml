@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_dialog"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="Enquiry"/>
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/baseline_contact_page_24"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:textColorHint="@color/white"
+        app:hintTextColor="@color/white"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:background="#30ffffff"
+            android:id="@+id/userName"
+            android:textColor="@color/white"
+            android:drawableStart="@drawable/baseline_perm_identity_24"
+            android:textColorHint="@color/white"
+            android:layout_height="wrap_content"
+            android:hint="     Full Name" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:textColorHint="@color/white"
+        app:hintTextColor="@color/white"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/userMo"
+            android:textColor="@color/white"
+            android:drawableStart="@drawable/baseline_call_24"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:background="#30ffffff"
+            android:hint="     Phone Number" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:textColorHint="@color/white"
+            app:hintTextColor="@color/white"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/userEmailId"
+                android:layout_height="wrap_content"
+                android:background="#30ffffff"
+                android:textColor="@color/white"
+                android:drawableStart="@drawable/baseline_email_24"
+                android:textColorHint="@color/white"
+                android:hint="     Email Id" />
+        </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:textColorHint="@color/white"
+                app:hintTextColor="@color/white"
+                android:layout_height="80dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:id="@+id/massage"
+                    android:textColorHint="@color/white"
+                    android:layout_height="80dp"
+                    android:textColor="@color/white"
+                    android:background="#30ffffff"
+                    android:drawableStart="@drawable/baseline_live_help_24"
+                    android:hint="     Massage" />
+            </com.google.android.material.textfield.TextInputLayout>
+         </LinearLayout>
+
+
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="end"
+       android:orientation="horizontal">
+
+       <androidx.appcompat.widget.AppCompatButton
+           android:id="@+id/cancelBtn"
+           android:textColor="@color/white"
+           android:layout_width="150dp"
+           android:backgroundTint="@color/red"
+           android:layout_height="wrap_content"
+           android:textStyle="bold"
+           android:text="Cancel" />
+
+       <androidx.appcompat.widget.AppCompatButton
+           android:id="@+id/submitBtn"
+           android:backgroundTint="@color/green"
+           android:textColor="@color/black"
+           android:textStyle="bold"
+           android:layout_width="150dp"
+
+           android:layout_height="wrap_content"
+           android:text="Submit" />
+   </LinearLayout>
+
+
+
+</LinearLayout>

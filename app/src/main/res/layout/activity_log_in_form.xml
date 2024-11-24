@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LogInForm"
+    android:background="@drawable/regbg2"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="Welcome \nBack"
+            android:textColor="@color/ngrywhite"
+            android:textColorLink="#D5CFCF"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:hint="   Name"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            >
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="   Email"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            >
+
+            <EditText
+                android:id="@+id/loginEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:background="#30ffffff"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/baseline_email_24"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="   Password"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            >
+
+            <EditText
+                android:id="@+id/loginPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:background="#30ffffff"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/baseline_password_24"
+                android:drawableEnd="@drawable/baseline_remove_red_eye_24"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:paddingStart="5dp"
+            android:focusableInTouchMode="true"
+            android:layout_height="wrap_content"
+            android:text="Agree to Terms of Use Data Security and Cookies"/>
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:text="Log in "
+            android:id="@+id/lastLoginBtn"
+            android:textColor="@color/blus"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:backgroundTint="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grywhite"
+            android:text="------------------------------------ OR --------------------------------------" />
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:text="Sign up "
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:id="@+id/signupBtn"
+            android:backgroundTint="@color/blus"
+            />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
